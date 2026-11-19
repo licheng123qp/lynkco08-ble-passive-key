@@ -1,0 +1,32 @@
+# 第三方产物与本地数据：绝不可入库
+captures/
+work/
+build/
+dist/
+*.apk
+*.log
+*.jks
+*.keystore
+*.db
+*.mmkv
+*.bin
+
+# 本地下载的工具链（体积大，且不可再分发）
+tools/jdk/
+tools/android-sdk/
+tools/platform-tools/
+tools/dl/
+tools/ghcli/
+tools/keys/
+tools/*.zip
+tools/*.exe
+
+# 早期侦察报告（含第三方 APP 内部结构分析，不随公开仓库发布）
+docs/03-*
+
+# Python / 编辑器
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">领克无感钥匙</string>
+    <string-array name="xposed_scope">
+        <item>com.lynkco.customer</item>
+    </string-array>
+</resources>
